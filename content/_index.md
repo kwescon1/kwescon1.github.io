@@ -6,28 +6,12 @@ type: docs
 # Welcome to My Corner of Engineering and Growth
 
 <div style="display: flex; align-items: center;">
-    <img src="../assets/images/person/kod.jpeg" alt="Kwesi Odame Danquah" style="border-radius: 50%; width: 200px; height: 200px; margin-right: 20px;">
+    <img src="/assets/images/person/kod.jpeg" alt="Kwesi Odame Danquah" style="border-radius: 50%; width: 200px; height: 200px; margin-right: 20px;">
     <div>
-        <h1>👋 Hi, I'm <span id="name">Kwesi Odame Danquah</span></h1>
+        <h1>👋 Hi, I'm <span id="">Kwesi Odame Danquah</span></h1>
         <p>a software engineer dedicated to building and maintaining highly performant, maintainable, and testable software systems.</p>
     </div>
 </div>
-
-<script>
-    const nameElement = document.getElementById('name');
-    const nameText = "Kwesi Odame Danquah";
-    let index = 0;
-
-    function typeEffect() {
-        if (index < nameText.length) {
-            nameElement.innerHTML += nameText.charAt(index);
-            index++;
-            setTimeout(typeEffect, 100);
-        }
-    }
-
-    typeEffect();
-</script>
 
 ## About Me
 
